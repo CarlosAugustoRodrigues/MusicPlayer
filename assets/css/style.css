@@ -29,7 +29,10 @@ a {
     --black: rgb(0, 0, 0);
     --black-2: rgb(15, 15, 15);
 
+    --purple: rgb(120, 50, 200);
+
     --white: rgb(255, 255, 255);
+    --whiteOpacity: rgba(255, 255, 255, .15);
 
     --linear-gradient: linear-gradient(45deg, rgb(120, 50, 200), rgb(120, 50, 255));
     --linear-gradient-2: linear-gradient(187deg, rgb(120, 50, 200), rgb(15, 15, 15) 40%);

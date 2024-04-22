@@ -68,3 +68,55 @@ main {
 .playlist ul {
     flex-direction: column;
 }
+
+.div-control-music {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.progress-music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    width: 60%;
+
+    color: var(--white);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+
+    border-radius: 10px;
+    background: var(--purple);
+}
+
+.controls {
+    display: flex;
+
+    gap: 20px;
+}
+
+.controls i {
+    color: var(--white);
+
+    font-size: 60px;
+
+    transition: .4s;
+
+    cursor: pointer;
+}
+
+.controls i:hover {
+    color: var(--purple);
+}
